@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Welcome to WERK Kenya</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* Reset and global styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to bottom, #353434, #616d43);
+      color: #ffffff;
+      overflow-x: hidden;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .logo {
+      width: 180px;
+      margin: 0 auto 20px;
+      animation: fadeIn 1.2s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    h1 {
+      color: #a4d72d;
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      text-shadow: 1px 1px 4px rgba(0,0,0,0.3);
+    }
+
+    .intro {
+      background-color: rgba(255, 255, 255, 0.1);
+      padding: 30px;
+      border-radius: 16px;
+      margin-bottom: 40px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+      line-height: 1.8;
+    }
+
+    .intro p, .intro li {
+      font-size: 1.05rem;
+      color: #ffffff;
+    }
+
+    .intro ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 20px 0;
+    }
+
+    .intro li {
+      margin-bottom: 12px;
+      position: relative;
+      padding-left: 24px;
+    }
+
+    .intro li::before {
+      content: "✔";
+      position: absolute;
+      left: 0;
+      color: #a4d72d;
+    }
+
+    .button {
+      display: inline-block;
+      margin: 10px;
+      padding: 14px 32px;
+      font-size: 1rem;
+      font-weight: bold;
+      background-color: #a4d72d;
+      color: #353434;
+      text-decoration: none;
+      border-radius: 50px;
+      transition: 0.3s ease;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    }
+
+    .button:hover {
+      background-color: #ffffff;
+      color: #616d43;
+      transform: scale(1.05);
+    }
+
+    footer {
+      margin-top: 50px;
+      padding: 20px;
+      font-size: 0.9rem;
+      background-color: rgba(0,0,0,0.1);
+      color: #ccc;
+    }
+
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 2rem;
+      }
+
+      .button {
+        width: 80%;
+        margin: 10px auto;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <img src="width_500 (1).png" alt="WERK Kenya Logo" class="logo">
+
+    <h1>Welcome to WERK Kenya</h1>
+
+    <div class="intro">
+      <p><strong>Women Educational Researchers of Kenya (WERK)</strong> is a national membership NGO committed to education, gender equity, and social justice. Through research, evidence, and advocacy, we work to bridge policy and practice in Kenya and beyond.</p>
+
+      <p>We believe education changes everything. Our digital platform connects you to:</p>
+
+      <ul>
+        <li>Girls' inspiring journeys in education</li>
+        <li>Powerful gender-responsive research</li>
+        <li>Youth empowerment through sports & innovation</li>
+        <li>Community-driven educational transformation</li>
+      </ul>
+
+      <p><strong>Join us in shaping a brighter, more equal future—where every girl can dream, learn, and lead.</strong></p>
+    </div>
+
+    <!-- Buttons -->
+    <a href="https://werk.co.ke" class="button" target="_blank">Visit Our Website</a>
+    <a href="https://x.com/WerkKenya" class="button" target="_blank">Follow on Twitter</a>
+    <a href="https://facebook.com/WERKOfficialPage" class="button" target="_blank">Like on Facebook</a>
+    <a href="https://linkedin.com/company/women-educational-researchers-of-kenya" class="button" target="_blank">Connect on LinkedIn</a>
+  </div>
+
+  <footer>
+    &copy; 2025 Women Educational Researchers of Kenya (WERK). All rights reserved.
+  </footer>
+
+</body>
+</html>
